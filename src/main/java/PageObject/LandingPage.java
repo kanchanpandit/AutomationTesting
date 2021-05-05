@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+
+
 public class LandingPage {
 	
 	public WebDriver driver; 
@@ -17,10 +19,11 @@ public class LandingPage {
 				this.driver = driver ;
 				}
   
-		public WebElement getSignIn() {
+		public CreateAccount getSignIn() {
 	  
-		return driver.findElement(SignIn);
-	  
+		 driver.findElement(SignIn).click();	
+		 CreateAccount CreatAc = new CreateAccount(driver) ; 
+		 return CreatAc ; 
   }
 	
  
