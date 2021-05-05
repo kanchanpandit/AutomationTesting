@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-05T05:33:31Z" name="Suite" finished-at="2021-05-05T05:33:56Z" duration-ms="24781">
+    <groups>
+    </groups>
+    <test started-at="2021-05-05T05:33:31Z" name="Test" finished-at="2021-05-05T05:33:56Z" duration-ms="24781">
+      <class name="Testing_Maven.end2end_test.HomePage">
+        <test-method signature="basePageNavigation()[pri:0, instance:Testing_Maven.end2end_test.HomePage@4fbe37eb]" started-at="2021-05-05T05:33:31Z" name="basePageNavigation" finished-at="2021-05-05T05:33:56Z" duration-ms="24748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Testing_Maven.end2end_test.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
