@@ -1,5 +1,6 @@
 package Testing_Maven.end2end_test;
 
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import PageObject.CreateAccount;
@@ -28,6 +29,14 @@ public class HomePage extends base {
 
 	CreateAccount_details crtAC_details = CreatAc.getSubmitButton(); 
 	crtAC_details.getGender().click();
+	crtAC_details.getCustomerFirstName().sendKeys("Kanchan");
+	crtAC_details.getCustomerLastName().sendKeys("Pandit");
+	crtAC_details.getCreatePassword().sendKeys("Blackrose");
+	
+	
+	
+	Select dropdown = new Select (crtAC_details.getBirthDate());
+	dropdown.selectByIndex(11);	
 	
 	}
 	
