@@ -1,4 +1,4 @@
-PageObject\LandingPage.class
 PageObject\CreateAccount.class
 Testing_Maven\end2end_test\base.class
 Testing_Maven\end2end_test\App.class
+PageObject\LandingPage.class

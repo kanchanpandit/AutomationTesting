@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30673" started-at="2021-05-05T07:18:12Z" finished-at="2021-05-05T07:18:42Z">
+  <suite name="Suite" duration-ms="38911" started-at="2021-05-05T11:42:53Z" finished-at="2021-05-05T11:43:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30673" started-at="2021-05-05T07:18:12Z" finished-at="2021-05-05T07:18:42Z">
+    <test name="Test" duration-ms="38911" started-at="2021-05-05T11:42:53Z" finished-at="2021-05-05T11:43:32Z">
       <class name="Testing_Maven.end2end_test.HomePage">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Testing_Maven.end2end_test.HomePage@6e75aa0d]" name="basePageNavigation" duration-ms="30635" started-at="2021-05-05T07:18:12Z" finished-at="2021-05-05T07:18:42Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Testing_Maven.end2end_test.HomePage@6e75aa0d]" name="basePageNavigation" duration-ms="38871" started-at="2021-05-05T11:42:53Z" finished-at="2021-05-05T11:43:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
