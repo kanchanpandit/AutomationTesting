@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38911" started-at="2021-05-05T11:42:53Z" finished-at="2021-05-05T11:43:32Z">
+  <suite name="Suite" duration-ms="111942" started-at="2021-05-08T14:18:44Z" finished-at="2021-05-08T14:20:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38911" started-at="2021-05-05T11:42:53Z" finished-at="2021-05-05T11:43:32Z">
-      <class name="Testing_Maven.end2end_test.HomePage">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Testing_Maven.end2end_test.HomePage@6e75aa0d]" name="basePageNavigation" duration-ms="38871" started-at="2021-05-05T11:42:53Z" finished-at="2021-05-05T11:43:32Z">
+    <test name="AppTest" duration-ms="4" started-at="2021-05-08T14:18:44Z" finished-at="2021-05-08T14:18:44Z">
+    </test> <!-- AppTest -->
+    <test name="GetLoggedIn" duration-ms="43382" started-at="2021-05-08T14:18:44Z" finished-at="2021-05-08T14:19:28Z">
+      <class name="Testing_Maven.end2end_test.GetLogin">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Testing_Maven.end2end_test.GetLogin@6892b3b6]" name="initialize" is-config="true" duration-ms="18332" started-at="2021-05-08T14:18:44Z" finished-at="2021-05-08T14:19:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-      </class> <!-- Testing_Maven.end2end_test.HomePage -->
-    </test> <!-- Test -->
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation1()[pri:0, instance:Testing_Maven.end2end_test.GetLogin@6892b3b6]" name="basePageNavigation1" duration-ms="24801" started-at="2021-05-08T14:19:03Z" finished-at="2021-05-08T14:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testing_Maven.end2end_test.GetLogin@6892b3b6]" name="teardown" is-config="true" duration-ms="220" started-at="2021-05-08T14:19:28Z" finished-at="2021-05-08T14:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testing_Maven.end2end_test.GetLogin -->
+    </test> <!-- GetLoggedIn -->
+    <test name="Shopping" duration-ms="68459" started-at="2021-05-08T14:19:28Z" finished-at="2021-05-08T14:20:36Z">
+      <class name="Testing_Maven.end2end_test.ShoppingItem">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Testing_Maven.end2end_test.ShoppingItem@7d0b7e3c]" name="initialize" is-config="true" duration-ms="18578" started-at="2021-05-08T14:19:28Z" finished-at="2021-05-08T14:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="shoppingItems()[pri:0, instance:Testing_Maven.end2end_test.ShoppingItem@7d0b7e3c]" name="shoppingItems" duration-ms="49660" started-at="2021-05-08T14:19:46Z" finished-at="2021-05-08T14:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingItems -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testing_Maven.end2end_test.ShoppingItem@7d0b7e3c]" name="teardown" is-config="true" duration-ms="218" started-at="2021-05-08T14:20:36Z" finished-at="2021-05-08T14:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testing_Maven.end2end_test.ShoppingItem -->
+    </test> <!-- Shopping -->
   </suite> <!-- Suite -->
 </testng-results>

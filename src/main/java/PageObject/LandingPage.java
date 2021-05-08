@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
-
 public class LandingPage {
 	
 	public WebDriver driver; 
@@ -26,5 +25,17 @@ public class LandingPage {
 		 return CreatAc ; 
   }
 	
+		public WebElement getLoginAccount() {
+			return driver.findElement(SignIn); 
+		}
+		
+		
+		public LoginAccount getLogin() {
+			 driver.findElement(SignIn).click();
+			 LoginAccount la = new LoginAccount(driver); 
+			 return la; 
+			 
+			 
+		}
  
 }

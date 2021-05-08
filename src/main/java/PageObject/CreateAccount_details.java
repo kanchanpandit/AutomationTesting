@@ -24,6 +24,7 @@ public class CreateAccount_details {
 	By PostCode = By.xpath("//input[@id='postcode']"); 
 	By AdditionalInfo = By.xpath("//textarea[@id='other']"); 
 	By MobilePhone = By.xpath("//input[@id='phone_mobile']"); 
+	By SubmitButtonAccount = By.xpath("//button[@id='submitAccount']"); 
 	
 	
 	public CreateAccount_details(WebDriver driver) {
@@ -92,6 +93,10 @@ public class CreateAccount_details {
 		
 		public WebElement getAddressPhone() {
 			 return driver.findElement(MobilePhone); 
+		}
+		
+		public WebElement getSubmitAccount() {
+			 return driver.findElement(SubmitButtonAccount); 
 		}
 		
 	}

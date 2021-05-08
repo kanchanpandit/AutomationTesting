@@ -59,9 +59,11 @@ public class HomePage extends base {
 	dropdown3.selectByIndex(5);
 	System.out.println(dropdown3.getFirstSelectedOption().getText());
 	
-	crtAC_details.getPostCode().sendKeys("BX4 102");
+	crtAC_details.getPostCode().sendKeys("90001");
 	crtAC_details.getAdditonalInfo().sendKeys("Hello, Please send the delivery after 0900 AM");
 	crtAC_details.getAddressPhone().sendKeys("95999123459");
+	crtAC_details.getSubmitAccount().click();
+	
 	
 	}
 	

@@ -1,0 +1,4 @@
+19:49:37.042 [main] INFO  Testing_Maven.end2end_test.base - driver is initialized
+19:49:52.488 [main] INFO  Testing_Maven.end2end_test.base - User successfully logged In
+19:49:57.617 [main] INFO  Testing_Maven.end2end_test.base - User has chosen women section
+19:50:36.512 [main] INFO  Testing_Maven.end2end_test.base - User has successfully placed the order
